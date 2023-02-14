@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday!</title>
+    <link href="../static/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1 class="happy_birthday">Happy Birthday</h1>
+    <img src="https://cdn.forbes.ru/files/profile/georgiy-soloviev_skyeng-legkoe.jpg__1556274062__94326.jpg"
+     alt="Georgiy Solovyov" class="image"/>
+    <p class="cool_text">
+        I wish life to be like a cup full to the brim - a bowl of happiness,
+        of happiness, joy, health, love, smiles, prosperity, and everything that
+        everything that makes our life better and kinder! Happy Birthday, Gheorghe!
+        We wish you peace and harmony in your soul and your surroundings! We wish you prosperity and joy
+        that brings you every day!
+    </p>
+    <div class="parent">
+        <div class="child">
+            <iframe class="video"
+                    width="560" height="315" src="https://www.youtube.com/embed/cGZPcFG3Edk"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                    clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+    <br><br><br><br>
+    {% for i in congratulations %}
+    <div class="wrapper">
+        <img src="{{ i.image }}" alt="{{ i.name }}" class='image_teachers'/>
+        <p class="content">{{ i.content }}</p>
+    </div>
+    {% endfor %}
+</body>
+</html>

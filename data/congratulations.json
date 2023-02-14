@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Наташа",
+    "image": "../static/images/Natasha.jpg",
+    "content": "Congratulations on your company anniversary! It's been a pleasure working with you these years. Keep up all the good work and never stop inspiring!"
+  },
+  {
+    "name": "Коля",
+    "image": "../static/images/Nikolay.jpg",
+    "content": "Wishing you healthy, adventurous and memory filled retirement. We all enjoyed working with you. Enjoy this new chapter in your life."
+  },
+  {
+    "name": "Давид",
+    "image": "../static/images/David.jpg",
+    "content": "Congratulations on your company anniversary! It's been a pleasure working with you these years. Keep up all the good work and never stop inspiring!"
+  },
+  {
+    "name": "Ксюша",
+    "image": "../static/images/Ksusha.jpg",
+    "content": "Your spirit, drive and hard work made your organization what it is today. Business anniversary is always a milestone to celebrate the achievements and the opportunity to set new goals. Congratulations on your success!"
+  }
+]

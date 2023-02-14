@@ -1,0 +1,97 @@
+.cool_text {
+    margin: 50px 300px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Arrival Apercu Mono Pro", monospace;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.025em;
+    line-height: 30px;
+    color: #000000;
+}
+
+.happy_birthday {
+    background: #000000;
+    border-radius: 15px;
+    border: 10px solid #000000;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 40px 500px 40px 500px;
+    font-family: "Arrival Apercu Mono Pro", monospace;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.06em;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+body {
+    /* задаёт путь до файла */
+    background-image: url("/static/images/bg.jpg");
+    /* задает стартовое положение изображения на странице */
+    background-position: center center;
+    /* определяет размер изображения на странице */
+    background-size: cover;
+    /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+    background-repeat: no-repeat;
+    /* cвойство определяет, будет ли фоновое изображение прокручиваться
+    вместе с остальной частью страницы или будет фиксированным */
+    background-attachment: fixed;
+
+    /* возможна также и короткая запись данных свойств */
+/ / background: url("/static/images/bg (2).jpg") center center no-repeat fixed;
+/ / background-size: cover;
+
+}
+
+.image {
+    display: block;
+    margin-left: auto; /* Center the image */
+    margin-right: auto; /* Center the image */
+    width: 20%; /* Set a specific width */
+    border-radius: 50%; /* Make the image round */
+    border: 5px solid #FFFFFF;
+    box-shadow: 0 0 5px black;
+}
+
+.image_teachers {
+    display: table-row;
+    float: inside; /* Make the image a block element to center it */
+    margin: 0px 70px 20px 200px;
+    margin-right: 2%;
+    margin-left: 17%;
+    width: 10%; /* Set a specific width */
+    border-radius: 50%; /* Make the image round */
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 5px black;
+}
+
+.content {
+    color: #000000;
+    margin-right: 17%;
+    font-size: 20px;
+    font-family: "Arrival Apercu Mono Pro", monospace;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: inherit;
+}
+
+.parent {
+    text-align: center;
+}
+
+.child {
+    display: inline-block;
+}
+
+.video {
+    border: 3px solid #ffffff;
+    border-radius: 3px;
+}
